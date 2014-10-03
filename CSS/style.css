@@ -1,0 +1,37 @@
+body{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+a{
+  font-family: Abel, Helvetica, sans-serif;
+  font-size: 40px;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  color: gray;
+}
+
+h2{
+  font-size: 50px;
+}
+
+img{
+  padding-top: 20px;
+}
+
+#image_container{
+  background-color: white;
+  width: 360px;
+  min-height: 360px;
+  background-position: center;
+margin: auto;
+}
+
+#enter_site_link{
+  padding-top: 20px;
+}

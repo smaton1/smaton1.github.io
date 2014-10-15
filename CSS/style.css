@@ -2,6 +2,8 @@ body{
   background-color: black;
   color: white;
   text-align: center;
+  margin-right: 10%;
+  margin-left: 10%;
 }
 
 a{
@@ -16,22 +18,97 @@ a:hover{
   color: gray;
 }
 
-h2{
-  font-size: 50px;
+.nav li a{
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 12px;
 }
 
-img{
-  padding-top: 20px;
+#carousel-example-generic{
+  height: 360px;
+  width: 700px;
+  margin:0 auto;
+  float: left;
+  margin-bottom: 20px
+
 }
+
+.carousel-inner{
+  height: 360px;
+  width: 700px;
+  margin:0 auto;
+  border-style: solid;
+  border-width: 20px;
+  border-color: white;
+}
+
+.rotate_image{
+  max-height: 120%;
+  margin: auto;
+}
+
+h2{
+  font-size: 50px;
+  margin-bottom: 12px;
+}
+
+nav{
+  float: right;
+  
+}
+
+#nav_title{
+  float: left;
+}
+
+hr{
+  width: 100%;
+  margin-top: 10px;
+}
+
+.about_me{
+  float: left;
+}
+
+
 
 #image_container{
   background-color: white;
   width: 360px;
   min-height: 360px;
   background-position: center;
-margin: auto;
+  margin: auto;
+  border-radius: 20px;
+  vertical-align: middle;
 }
 
 #enter_site_link{
   padding-top: 20px;
+}
+
+#logo{
+  max-height: 300px;
+  max-width: 300px;
+  vertical-align: middle;
+  padding-top: 90px;
+}
+
+#contact_me{
+  float: left;
+  height: 360px;
+  position: relative;
+}
+
+#contact_me ul{
+  list-style: none;
+  padding-top: 328px;
+  
+}
+#contact_me ul li{
+  display: inline-block;
+
+}
+
+#contact-me-title{
+  font-size: 30px
 }

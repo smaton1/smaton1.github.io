@@ -112,3 +112,29 @@ hr{
 #contact-me-title{
   font-size: 30px
 }
+
+#about_me{
+
+}
+
+ul{
+  list-style: none;
+}
+
+.about_me_text{
+  font-size: 25px;
+}
+
+.portfolio_image{
+  max-width: 500px;
+  max-height: 500px;
+}
+
+
+
+.portfolio_list_items{
+  display: inline-block;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+}

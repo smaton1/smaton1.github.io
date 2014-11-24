@@ -1,27 +1,31 @@
 <html>
 <head>
   <title>Sam Maton</title>
-  <script type="text/javascript" src="JS/app.js"></script>
+  
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript" src="JS/app.js"></script>
+  <script type="text/javascript" src="JS/jquery.simplemodal-1.4.4.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="CSS/style.css">
   <link rel="stylesheet" href="FlaticonDownload/flaticon.css" 
 </head>
 <body>
+    <header>
     <h2 id='nav_title'>Sam Maton</h2>
     <nav>
       <ul class="nav nav-pills">
-        <li><a href="#">Top</a></li>
-        <li><a href="#">About Me</a></li>
-        <li><a href="#">Portfolio</a></li>
+        
+        <li><a href="#about_me">About Me</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#">Contact Details</a></li>
       </ul>
     </nav>
+    </header>
   <br>
   
 
-
+  <div class='top_display'>
   <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
@@ -55,6 +59,7 @@
     </li>
   </ul>
 </div>
+</div>
 <hr>
 
 <div>
@@ -82,11 +87,11 @@ a web developer.</p>
   <h1>Portfolio</h1>
 
   <ul >
-    <li class='portfolio_list_items' >
+    <li class='portfolio_list_items' id='soho_hack_image' >
       <img class='portfolio_image' src="soho_hack.png">
       <p>Soho house hackathon app</p>
     </li>
-    <li class='portfolio_list_items'>
+    <li class='portfolio_list_items' id='dota_app_image'>
       <img class='portfolio_image' src="uk_dota_app.png">
       <p>UK Dota App</p>
     </li>

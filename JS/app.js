@@ -10,5 +10,8 @@ $(document).ready(function () {
      $("#game_center_image").click(function() {
   $.modal("<div><h1>Responsive Game Center App</h1><br><p id='overlay_text'>This was a project I put together in my own time to help improve my javascript ability as well as test out some responsive desgin thoughts I had. The aim was to build two javascript games and get them to work well on a mobile device. I used a number of tutorials to help me put together the games and these videos greatly helped improve my javascript knowledge.</p><br><img class='portfolio_image_overlay' src='game_center.png'><br><a href='http://smaton1.github.io/game_center/'>Project link</a></div>", {opacity:100});
   });
+     $('.handle').on('click', function(){
+    $('nav ul').toggleClass('showing');
+  });
 
 });
